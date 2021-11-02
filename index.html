@@ -3,14 +3,18 @@
 
 <head> 
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
   <div class="search">
-    <input id="searchbox" placeholder="escribe algo" type="text">
+    <input class="searchbox" id="searchbox" placeholder="escribe algo" type="text" onfocus="this.value=''" autocomplete="off" >
   </div>
+
   <script src="js/search.js"></script>
+
+
 </body>
 
 </html>

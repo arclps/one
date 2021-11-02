@@ -1,0 +1,29 @@
+$blue: rgb(14, 131, 177);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+.search {
+
+    & searchbox {
+
+        &::hover {
+            box-shadow: (0, 1rem, 2rem, rgba($blue, 0.8));
+        }
+
+    }
+}
+
+img {
+    max-width: 100vw;
+    display: block;
+    padding-left: .5rem;
+    padding-right: .5rem;
+
+}

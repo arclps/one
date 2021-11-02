@@ -50,3 +50,5 @@ searchInput.addEventListener('keyup', function (e) {
 		}
 	}
 });
+
+

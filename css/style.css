@@ -1,0 +1,64 @@
+:root {
+  --purpura: hsl(261, 88%, 60%);
+  --turquesa: rgb(235, 186, 51);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+html {
+  font-size: 62.5%; 
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  font-family: monospace;
+  background: linear-gradient(217deg, rgba(186, 218, 10, 0.8), rgba(255,0,0,0) 70.71%),
+  linear-gradient(127deg, rgba(8, 224, 116, 0.8), rgba(0,255,0,0) 70.71%),
+  linear-gradient(336deg, rgba(177, 10, 243, 0.8), rgba(0,0,255,0) 70.71%);
+ 
+}
+
+
+.search {
+  width: 50rem;
+  max-width: 100vw;
+ 
+}
+
+input.searchbox {
+  width: 50rem;
+  max-width: 80vw;
+  padding: 1.5rem 2.5rem; /*a&a costados*/
+  display: block;
+
+  background-color: var(--turquesa);
+  border: .2rem solid var(--purpura);
+  height: 5.5rem;
+  border-radius: 1.3rem;
+
+  text-align: left;
+  font-family: monospace;
+  font-size: 1.6rem;
+  color:hsl(60, 3%, 12%);
+
+}
+
+input.searchbox:focus {
+  outline: none; /*evita que cambie de color el borde*/
+  background-color: hsl(0, 0%, 100%);
+  transition: .1s;
+  border: .3rem solid var(--turquesa);
+}
+
+input.searchbox::placeholder {
+  color: var(--purpura)
+}
+
