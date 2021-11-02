@@ -59,6 +59,7 @@ input.searchbox:focus {
 }
 
 input.searchbox::placeholder {
-  color: var(--purpura)
+  color: var(--purpura);
+  opacity: .7;
 }
 

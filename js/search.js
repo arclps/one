@@ -46,7 +46,7 @@ searchInput.addEventListener('keyup', function (e) {
 		} else {
 			search(this.value);
 			searchInput.value = '';
-			searchInput.placeholder = ' -y ';
+			searchInput.placeholder = ' '; /*texto que queda despues de hacer la busqueda*/
 		}
 	}
 });
